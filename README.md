@@ -1,4 +1,4 @@
-# Create Income and Outcome transactions - applications done with NodeJS
+# Create Income and Outcome transactions - application done with NodeJS
 
 ## To run the project
 
@@ -13,9 +13,9 @@
 
 ## Routes
 
-> For now there are only two routes. In futere there may be more
-
 > The base URL is **http://localhost:3333**
+
+> Use something like [Insomnia](https://insomnia.rest/download/) to make the requests
 
 - `POST /transactions`: you must pass JSON as body with the fields `title`, `value` and `type` to this route
   - _title_ must be a string
@@ -66,3 +66,6 @@
           "total": 800
         }
       }
+      
+      
+ > For now there are only two routes. In futere there may be more
